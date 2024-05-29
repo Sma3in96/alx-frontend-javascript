@@ -5,5 +5,5 @@ export default async function handleProfileSignup() {
     .then((values) => {
       console.log(`${values[1].body} ${values[0].firstName} ${values[0].lastName}`);
     })
-    .catch(() => console.error('Signup system offline'));
+    .catch(() => console.log('Signup system offline'));
 }
