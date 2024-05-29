@@ -1,5 +1,5 @@
 export default function getResponseFromAPI() {
-  const response = new Promise((_resolve, _reject) => {
+  const response = new Promise(() => {
   });
   return response;
 }
