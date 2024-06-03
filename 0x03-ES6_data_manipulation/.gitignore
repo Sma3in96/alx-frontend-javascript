@@ -2,5 +2,5 @@
 babel.config.js
 package.json
 package-lock.json
-.eslinttrc.js
+.eslintrc.js
 main.js
