@@ -1,4 +1,7 @@
 export default function updateUniqueItems(map) {
+  if (map instanceof Map) {
+    throw new Error('Cannot update');
+  }
   const iterator = map.keys();
   let ind = 0;
   while (ind < map.size) {
